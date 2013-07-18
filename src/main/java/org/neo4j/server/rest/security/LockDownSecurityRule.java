@@ -9,14 +9,13 @@ public class LockDownSecurityRule implements SecurityRule {
     @Override
     public boolean isAuthorized( HttpServletRequest request)
     {
-        // always fails - a production implementation performs
         return false;
     }
 
     @Override
     public String forUriPath()
     {
-        return "/db/data/node/*/traverse/*";
+        return "*node/*/traverse*";
     }
 
     @Override
