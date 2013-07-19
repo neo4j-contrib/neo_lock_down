@@ -7,6 +7,7 @@
     <groupId>neo_lock_down</groupId>
     <artifactId>neo_lock_down</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <neo4j.version>1.9.1</neo4j.version>
@@ -63,5 +64,16 @@
         </dependency>
     </dependencies>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <useDefaultManifestFile>true</useDefaultManifestFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
