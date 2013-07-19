@@ -18,4 +18,4 @@ In neo4j-server.properties:
 
 Download:
 
-    * [neo_lock_down-1.0.jar](https://dl.dropboxusercontent.com/u/57740873/neo_lock_down-1.0.jar)
+* [neo_lock_down-1.0.jar](https://dl.dropboxusercontent.com/u/57740873/neo_lock_down-1.0.jar)
